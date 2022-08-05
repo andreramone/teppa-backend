@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "dev": "ts-node-dev --transpile-only --ignore-watch node_modules src/app.ts",
-    "start": "src/app.ts"
+    "start": "node ./dist/app.js"
   },
   "dependencies": {
     "@google-cloud/connect-firestore": "^2.0.2",
