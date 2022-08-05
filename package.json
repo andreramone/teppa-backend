@@ -7,7 +7,6 @@
     "build": "tsc",
     "dev": "ts-node-dev --transpile-only --ignore-watch node_modules src/app.ts",
     "start": "ts-node-dev --transpile-only --ignore-watch node_modules src/app.ts"
-    
   },
   "dependencies": {
     "@google-cloud/connect-firestore": "^2.0.2",
@@ -22,6 +21,7 @@
     "firebase": "^8.0.0",
     "firestore": "^1.1.6",
     "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.19",
     "reflect-metadata": "^0.1.13",
     "yup": "^0.32.11"
   },
